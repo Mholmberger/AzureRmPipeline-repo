@@ -20,5 +20,4 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateVM/azuredeploy.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateVM/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
