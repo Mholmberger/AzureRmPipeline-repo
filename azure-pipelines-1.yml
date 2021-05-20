@@ -20,5 +20,5 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateLogicApp/azuredeploy.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateLogicApp/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployLogicAppTemplate'
