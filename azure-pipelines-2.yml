@@ -10,6 +10,7 @@ pool: Win2016server
  
 
 steps:
+
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
@@ -20,4 +21,5 @@ steps:
     location: 'West Europe'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateVM/azuredeploy.json'
-    deploymentMode: 'Incremental'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/Mholmberger/AzureRmPipeline-repo/master/CreateVM/azuredeploy.parameters.json'
+    deploymentMode: 'Validation'
