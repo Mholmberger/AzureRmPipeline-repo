@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: Win2016server
+  vmImage: MyPool
 
 steps:
 - task: AzureResourceManagerTemplateDeployment@3
