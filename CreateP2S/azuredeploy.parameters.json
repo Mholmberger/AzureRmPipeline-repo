@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+	"virtualNetworkName": {
+            "value": "Vnet"
+        },
+        "gatewayPublicIPName": {
+            "value": "VnetPip"
+        },
+        "gatewayName": {
+            "value": "VnetGw"
+        },
+        "vnetAddressPrefix": {
+            "value": "192.168.100.0/24"
+        },
+        "gatewaySubnetPrefix": {
+            "value": "192.168.100.16/28"
+        },
+        "gatewaySku": {
+	    "value": "VpnGw1"
+        },
+        "vpnClientAddressPoolPrefix": {
+            "value": "10.10.8.0/24"
+        },
+        "clientRootCertName": {
+            "value": "RootCert1"
+        },
+        "clientRootCertData": {
+            "value": "MIIC5zCCAc+gAwIBAgIQHZsvAzBhjLFJl2nY8cNkmDANBgkqhkiG9w0BAQsFADAWMRQwEgYDVQQDDAtQMlNSb290Q2VydDAeFw0yMTA0MjExNzEyMTlaFw0yMjA0MjExNzMyMTlaMBYxFDASBgNVBAMMC1AyU1Jvb3RDZXJ0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzVSiZKs0MQG2Tk+PmqGpmL8QoB2+ph27sQG22WWhT2k2sMw/vbZgeaFRRrgaD9TvcHzU3j30OKsEAdupPUVVzjv/OJEhmdwVjPh3SkEISntvCeU2ezMLW5q9SZKPwQuQnXnjYnMiWvjtTDFpF0HsZkBpCMW75BgmNitdeJBF1Qv+DsP0olKZceAM4MDrt66ZphcMMj5nDsLCmV33KzDe1Ul2O8Xl3lsLrGEccWKLBax3vbKzkH6Y+ryg9n7T29+5bStL2AgrP3YidQUlZfvKr9qTre/AwGm/xdaz7HeBTj3qGakphR3nBloYVoKh78j0Zo1rcxPiak86fO8uZn9IdQIDAQABozEwLzAOBgNVHQ8BAf8EBAMCAgQwHQYDVR0OBBYEFOfocW0on7ziyaFRl/t9IEKgkNrPMA0GCSqGSIb3DQEBCwUAA4IBAQCoiTbkGHllv2NLwHxZAx+jdHjjVIGyH0ZS7eIcpBuYw76/o4MlqktyJ+Trl9BlDj3gY/AXVS8gqz4M90xmsxsP76U++poSJAng6D9V1FzPwE/QukZ75kh/UqjWYlR6Ybr+R5hEhB1erSkKkyJIvBgRuIJfrV3mTh0/tXrz+z3lTHYaKehdMW4W3UAlW4Y0IX1JYGmQHpoiV2bk74Ox62ciJJfpTBpXnFVNBBiovkK/mO/ZHzKP9eAXpgv7hx+PZKRrut0uPzbW7JmSNobqZZ9Xq59YBteGqOSyd3bSaowU2sxKGFPtZmr7dX+Pw73bWu2+QXRCd0RjQ2teIMRtYtID"
+        },
+        "revokedCertName": {
+            "value": "RevokedCert1"
+        },
+        "revokedCertThumbprint": {
+            "value": "633EBFFBD01B6049D61E3CF059CFD940C8CE5780"
+        }
+    }
+}
